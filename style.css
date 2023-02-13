@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Lato;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(67, 30, 112);
+}
+
+header {
+    text-align: center;
+    font-family: Lato;
+    padding-top: 200px;
+    color: antiquewhite;
+}
+
+header p {
+    padding-top: 10px;
+}
+
+.questions-div {
+    padding-top: 50px;
+}
+
+ul {
+    padding-top: 20px;
+}
+
+ul h1{
+    padding-bottom: 20px;
+}
+
+li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border: 1px solid purple;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(244, 179, 244);
+    color: antiquewhite;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+li:hover {
+    background-color: rgb(18, 3, 31);
+    color: rgb(245, 185, 107);
+}
+
+button {
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.second {
+    display: none;
+}
+
+.third {
+    display: none;
+}
+
+.last {
+    display: none;
+    margin-top: 50px;
+}
+
+.last button {
+    margin-top: 10px;
+    background-color: green;
+}
+
+.invite {
+    display: none;
+    margin-top: 30px;
+    color: beige;
+}
